@@ -771,3 +771,300 @@ cursor: pointer;
   height: 30px;
   width: 30px;
 }
+
+@media (max-width: 1280px) {
+  .left {
+    width: 20%;
+  }
+  .middle {
+    width: 50%;
+  }
+  .right {
+    width: 30%;
+    padding-right: 20px;
+    padding-left: 15px;
+  }
+  .middle-start1 {
+    width: 50%;
+  }
+  .sidebar .upper-content {
+    padding-left: 10%;
+    padding-right: 10px;
+  }
+  .sidebar .lower-content {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .rt-div1 img {
+    right: 280px;
+  }
+  .rt-div1 input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .left {
+    width: 90px;
+  }
+  .middle {
+    width: calc(100% - 390px);
+  }
+  .right {
+    width: 300px;
+  }
+  .sidebar .upper-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar .lower-content {
+    margin-left: 10px;
+    width: 70px;
+  }
+  .upper-content-heading {
+    font-size: 0;
+    padding: 10px;
+    justify-content: center;
+  }
+  .upper-content-heading img {
+    margin: 0;
+  }
+  .post {
+    font-size: 0;
+    padding: 0;
+  }
+  .post::after {
+    content: "✎";
+    font-size: 24px;
+  }
+  .content-lc {
+    display: none;
+  }
+  .icon1 {
+    display: none;
+  }
+  .lc-part1 {
+    justify-content: center;
+  }
+  .middle-start1 {
+    width: calc(100% - 390px);
+  }
+  .divhu {
+    margin-left: 100px;
+  }
+  .rt-div1 img {
+    right: 200px;
+  }
+  .rt-div1 input {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background-color: black;
+    border-top: 1px solid rgb(57, 55, 55);
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sidebar .upper-content {
+    flex-direction: row;
+    height: 60px;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+  }
+  .sidebar .lower-content {
+    display: none;
+  }
+  .twitter-logo {
+    display: none;
+  }
+  .upper-content-heading {
+    margin: 0;
+    padding: 10px;
+  }
+  .upper-content-heading:nth-child(n+8) {
+    display: none;
+  }
+  .post {
+    display: none;
+  }
+  .middle {
+    width: 100%;
+    height: calc(100vh - 60px);
+    border-left: none;
+    border-right: none;
+    margin-bottom: 60px;
+  }
+  .middle-start1 {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+  .div23 {
+    padding: 15px;
+  }
+  .photo-div img {
+    width: 100%;
+    height: auto;
+  }
+  .photo-div {
+    margin-right: 15px;
+  }
+  .photo-div1 img {
+    width: 100%;
+    height: auto;
+  }
+  .photo-div1 {
+    margin-right: 15px;
+  }
+  .div42-p1-one {
+    width: 70%;
+  }
+  .divhu {
+    margin-left: auto;
+  }
+  .para-div p {
+    margin-right: 15px;
+  }
+  .lastwala-div,
+  .lastwala-div1,
+  .lastwala-div5,
+  .lastwala-div7,
+  .lastwala-div8 {
+    margin-right: 15px;
+  }
+  .divnolast {
+    font-size: 12px;
+  }
+  .divnolast img {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .middle-start1 {
+    height: 45px;
+    font-size: 14px;
+  }
+  .div21 {
+    font-size: 15px;
+  }
+  .middle-start2 {
+    height: 100px;
+  }
+  .div23 img {
+    height: 32px;
+    width: 32px;
+  }
+  #pata-nahi {
+    font-size: 16px;
+  }
+  .div24 .f-round {
+    padding-left: 40px;
+    gap: 10px;
+  }
+  .f-round img {
+    height: 16px;
+    width: 16px;
+  }
+  .div24 .l-round button {
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .middle-start3 {
+    font-size: 14px;
+  }
+  .div41 img {
+    height: 32px;
+    width: 32px;
+  }
+  .div42-p1-one {
+    font-size: 14px;
+  }
+  .para-div {
+    font-size: 14px;
+  }
+  .divnolast {
+    font-size: 11px;
+    gap: 3px;
+  }
+  .divnolast img {
+    height: 14px;
+    width: 14px;
+  }
+  .upper-content-heading img {
+    height: 22px;
+    width: 22px;
+  }
+  .sidebar .upper-content {
+    gap: 5px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .middle-start1 {
+    font-size: 13px;
+  }
+  .div21 {
+    font-size: 14px;
+  }
+  #pata-nahi {
+    font-size: 14px;
+  }
+  .div24 .f-round {
+    padding-left: 20px;
+    gap: 5px;
+  }
+  .f-round img {
+    height: 14px;
+    width: 14px;
+  }
+  .div24 .l-round button {
+    height: 28px;
+    width: 55px;
+    font-size: 13px;
+  }
+  .div42-p1-one {
+    font-size: 13px;
+  }
+  .para-div {
+    font-size: 13px;
+  }
+  .divnolast {
+    font-size: 10px;
+  }
+  .upper-content-heading img {
+    height: 20px;
+    width: 20px;
+  }
+  .div-grok {
+    height: 35px;
+    width: 35px;
+    right: 10px;
+    bottom: 70px;
+  }
+  .div-grok img {
+    height: 25px;
+    width: 25px;
+  }
+}
